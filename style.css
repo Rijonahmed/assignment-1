@@ -5,6 +5,7 @@
 }
 
 .main-contener{
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%; 
 
@@ -21,13 +22,13 @@
   width: 50%;
 }
 .first-sec-text-said h1{
-  font-size: 30px;
+  font-size: 40px;
 }
 #border-decoration{
   border-left: 5px solid;
-  border-image: linear-gradient(red,blue);
+  border-image: linear-gradient(rgb(250, 89, 89),rgb(182, 44, 44));
   border-image-slice: 1;
-  padding: 7px;
+  padding-left: 10px;
 }
 
 .first-sec-img-said{
@@ -37,9 +38,6 @@
 }
 .first-sec-img-said img{
   width: 70%
-  
-  
-
 }
 .button-btn{
   text-decoration: none;
@@ -47,7 +45,6 @@
   padding: 10px 30px;
   background-color: brown;
   color: white;
-
 }
 
 /*second section */
@@ -57,6 +54,8 @@
 
 .second-section h1{
   text-align: center;
+  color: rgb(2, 2, 78);
+  font-size: 30px;
 
 }
 .second-content{
@@ -67,8 +66,6 @@
   background-color: rgb(236, 245, 196);
   border-radius: 10px;
   padding: 12px;
-  
-
 }
 .first-box img{
   width: 60%;
@@ -79,20 +76,18 @@
   margin-left: 30px;
   border-radius: 10px;
   padding: 12px;
-
 }
+
 .second-box img{
   width: 60%;
 }
+
 .thied-box{
   width:30%;
   background-color: rgb(216, 213, 233);
   margin-left: 30px;
   border-radius: 10px;
   padding: 12px;
-  
-
-
 }
 .thied-box img{
   width: 60%;
@@ -112,7 +107,6 @@
 }
 .third-sec-text{
   width: 65%;
-
 }
 
 /* fourth-section */
@@ -125,11 +119,10 @@
 .fourth-sec-text{
   width: 65%;
   padding-right: 20px;
-  
-
 }
 .fourth-sec-img{
   width: 35%;
+
 }
 .fourth-sec-img img{
   width: 90%;
@@ -137,29 +130,31 @@
 }
 /* fiveth-section */
 
-.fiveth-section{
-  margin: 20px;
-}
+
 .fiveth-section h1{
   text-align: center;
+  margin-bottom: 80px;
+  font-size: 30px;
 }
 .fiveth-box{
   display: flex;
   background-image: url(bg/shape-1.png);
 
   background-repeat: no-repeat;
+  background-size: 500px;
 
 }
 .fiveth-sec-img{
   width: 65%;
 
-
 }
 .fiveth-sec-img img{
   width: 50%;
+  border-radius: 10px;
 }
 .fiveth-sec-text{
   width: 50%;
+  margin-top: 100px;
 
 }
 .extra-btn{
@@ -185,4 +180,7 @@ footer p {
 footer h2{
   text-align: center;
   padding-top: 40px;
+  
+font-family: 'Lobster', cursive;
+
 }
